@@ -66,7 +66,7 @@ CHECK=$( ls /usr/bin/dpkg-deb | cut -d '/' -f 4 )
 
 [[ $CHECK != "dpkg-deb" ]] && notool
 
-#wget https://github.com/MauricioFerrari-NovaTrento/openarena-mint-20/releases/download/0.8.8/openarena-0.8.8.zip
+wget https://github.com/MauricioFerrari-NovaTrento/openarena-mint-20/releases/download/0.8.8/openarena-0.8.8.zip
 
 mkdir -p $TMP/opt $TMP/usr/share/applications $TMP/DEBIAN
 

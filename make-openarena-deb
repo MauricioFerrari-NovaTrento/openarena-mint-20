@@ -85,11 +85,3 @@ cp openarena.desktop $TMP/usr/share/applications
 dpkg-deb -b $TMP $FOLDER/openarena_0.8.8-1_$ARCH.deb
 
 rm -r $TMP
-
-
-
-
-
-
-
-
